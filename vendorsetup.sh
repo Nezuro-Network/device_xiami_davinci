@@ -1,4 +1,4 @@
-KERNEL=https://github.com/Sleppyiecat/android_kernel_xiaomi_sm6150
+KERNEL=https://github.com/Sleppyiecat/kernel_xiaomi_sm6150
 HW=https://github.com/LineageOS/android_hardware_xiaomi
 VENDOR=https://github.com/Nezuro-Network/vendor_xiaomi_davinci
 
