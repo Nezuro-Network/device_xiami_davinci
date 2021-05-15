@@ -32,7 +32,13 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 # Inherit some kangos flags
 TARGET_BOOT_ANIMATION_RES := 1080
+KANGOS_BUILDTYPE := OFFICIAL
 TARGET_INCLUDE_AOSP_REPLACEMENT := true
 USE_GAPPS := true
+
+# Inherit maintainer flag and device specs
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.kangos.maintainer=Karou \
+  ro.kangos.cpu=SD730
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
