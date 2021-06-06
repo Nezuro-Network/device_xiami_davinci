@@ -20,6 +20,10 @@
 
     <!-- Color of the FOD view -->
     <color name="config_fodColor">#00ffffff</color>
+
+    <!-- Burn in protection -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
+    <integer name="config_shift_interval">60</integer>
      
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
